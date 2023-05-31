@@ -1278,10 +1278,11 @@ i:before {
 }
 
 .ad-01 {
-  background: url(../images/img04.jpg);
+  background: url(../images/alcohol.jpg);
   background-repeat: no-repeat !important;
   background-position: center !important;
   background-size: cover !important;
+  filter: saturate(0.5);
 }
 
 .plain-white {
@@ -1733,9 +1734,9 @@ input[type="button"] {
 }
 .works .works-group .works-item img {
   left: 0;
-  margin: 35px 14px;
+  /* margin: 35px 14px;
   max-height: 50px;
-  max-width: 100px;
+  max-width: 100px; */
   position: absolute;
   top: 0;
   vertical-align: middle;
